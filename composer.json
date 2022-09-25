@@ -1,0 +1,24 @@
+{
+    "name": "ibnudirsan/joke",
+    "description": "hanya sebuah joke yang tidak berguna wkwkwkwkw",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ibnudirsan\\Joke\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ibnudirsan\\Joke\\ArtisanJokeServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "ibnudirsan"
+        }
+    ],
+    "require": {}
+}
